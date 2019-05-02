@@ -1,5 +1,5 @@
 def my_select(collection)
  collection.select do |i|
-   collection[i].even?
+   collection[i]
  end
 end
